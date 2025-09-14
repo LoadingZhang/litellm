@@ -79,8 +79,8 @@ export function useLogFilterLogic({
         page,
         pageSize,
         filters[FILTER_KEYS.USER_ID] || undefined,
-        filters[FILTER_KEYS.END_USER] || undefined,
         filters[FILTER_KEYS.STATUS] || undefined,
+        filters[FILTER_KEYS.END_USER] || undefined,
         filters[FILTER_KEYS.MODEL] || undefined
       );
 
